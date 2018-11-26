@@ -33,9 +33,7 @@
 	                      <?php endif;?>
 	                      <?php $this->load->view($temp , $this->data);?>
 	        </div>
-			<div class="right">
-				<?php $this->load->view('site/right',$this->data);?>
-			</div>
+			
 			<div class="clear">
 			
 			</div>
@@ -49,5 +47,29 @@
 			<?php $this->load->view('site/footer');?>
 		</div>
 	</div>
+	<!--facebook rep inbox -->
+	<div id="fb-root"></div>
+<script src="<?php echo base_url()?>ib-facebook/ib-fb.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>ib-facebook/fb-css.css">
+<script src="<?php echo base_url()?>ib-facebook/fb-jq.js"></script>
+<div id="cfacebook">
+<a href="javascript:;" class="chat_fb" onClick="return:false;"><i class="fa fa-facebook-square"></i> Chat với Shop Beauty</a>
+<div class="fchat">
+<div style="width:250px;" class="fb-page"
+data-href="https://www.facebook.com/Shop-beauty-2251998445076925/?modal=admin_todo_tour"
+data-tabs="messages"
+data-width="260"
+data-height="280"
+data-small-header="true">
+<div class="fb-xfbml-parse-ignore">
+<blockquote></blockquote>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+	
 	</body>
 </html>

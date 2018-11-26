@@ -158,6 +158,7 @@ div.top
     float: left;
     line-height: 28px;
     width: 190px;
+	padding-top: 10px;
 }
 .tittle-box-left h2,.tittle-box-right h2 {
     background: url("../images/icon.png") no-repeat left center;
@@ -191,6 +192,7 @@ div.top
     height: auto;
     margin-bottom: 15px;
     width: 101%;
+	padding-top: 5px;
 }
 .tittle-box-center {
     background: url("../images/menu.png") repeat-x;

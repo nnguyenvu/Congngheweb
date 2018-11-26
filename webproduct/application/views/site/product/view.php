@@ -78,7 +78,7 @@ $(document).ready(function() {
 		      <div class="box-content-center product"><!-- The box-content-center -->
 		           <div class='product_view_img'>
 		                <a href="<?php echo base_url('upload/product/'.$product->image_link)?>" class="jqzoom" rel='gal1'  title="triumph" >
-				            <img  src="<?php echo base_url('upload/product/'.$product->image_link)?>" alt='Tivi LG 520' style="width:280px !important">
+				            <img class = "cloudzoom" data-cloudzoom = "zoomImage: '<?php echo base_url('upload/product/'.$product->image_link)?>'" src="<?php echo base_url('upload/product/'.$product->image_link)?>" alt='Tivi LG 520' style="width:280px !important">
 				        </a>
 				         <div class='clear' style='height:10px'></div>
 				         <div class="clearfix" >

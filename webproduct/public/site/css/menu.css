@@ -74,6 +74,7 @@ ul.catalog-main li span {
     margin-left: -21px;
     padding-left: 8px;
     width: 182px;
+	text-align: center;
 }
 ul.catalog-main li span a{
 	color: #FFFFFF;

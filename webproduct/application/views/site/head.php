@@ -1,5 +1,7 @@
 
         <meta http-equiv="Content-Type" content="text/html ;charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- the CSS -->
         <link type="text/css" href="<?php echo public_url()?>/site/css/reset.css" rel="stylesheet">
         <link type="text/css" href="<?php echo public_url()?>/site/css/style.css" rel="stylesheet">
@@ -60,6 +62,7 @@
 		    text-align: center;
 		    text-decoration: none;
 		    width: auto;
+			padding-bottom: 80px;
 		}
 		</style>
 		
