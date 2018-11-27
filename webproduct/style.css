@@ -333,8 +333,8 @@ z-index: 9;
   overflow: hidden;
 }
 .single-product:hover {}
-.single-product:hover .product-hover a.add-to-cart-link {top: 32%;}
-.single-product:hover .product-hover a.view-details-link {bottom: 32%;}
+.single-product:hover .product-hover a.add-to-cart-link {top: 12%;}
+.single-product:hover .product-hover a.view-details-link {bottom: 12%;}
 .single-product:hover .product-hover:after{left: 0}
 
 
