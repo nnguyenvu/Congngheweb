@@ -15,7 +15,7 @@ $price_to_select = isset($price_to) ? intval($price_to) : 0;
 						<label for="param_price_from" class="form-label" style="width:70px">Giá từ:<span class="req">*</span></label>
 						<div class="form-item" style="width:90px">
 							<select class="input" id="price_from" name="price_from">
-							     <?php for($i = 0; $i<= 4000000;$i=$i+50000):?>
+							     <?php for($i = 0; $i<= 10000000;$i=$i+1000000):?>
 							        <option <?php echo ($price_from_select == $i) ? 'selected': ''?> value="<?php echo $i?>"><?php echo number_format($i)?> đ</option>
 							     <?php endfor;?>		
 							</select>
@@ -28,7 +28,7 @@ $price_to_select = isset($price_to) ? intval($price_to) : 0;
 						<label for="param_price_from" class="form-label" style="width:70px">Giá tới:<span class="req">*</span></label>
 						<div class="form-item" style="width:90px">
 							<select class="input" id="price_to" name="price_to">
-							       <?php for($i = 0; $i<= 4000000;$i=$i+50000):?>
+							       <?php for($i = 0; $i<= 15000000;$i=$i+5000000):?>
 							        <option  <?php echo ($price_to_select == $i) ? 'selected': ''?>  value="<?php echo $i?>"><?php echo number_format($i)?> đ</option>
 							       <?php endfor;?>								          
 							 </select>
